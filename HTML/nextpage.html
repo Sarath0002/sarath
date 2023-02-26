@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+     body {
+        background-color: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+
+    }
+
+
+
+
+
+
+    span {
+        color: rgb(252, 5, 5);
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid rgb(144, 125, 1);
+        border-collapse: collapse;
+        margin-top: 5cm;
+        box-sizing: content-box;
+        width: 100%;
+        color: aqua;
+
+
+    }
+
+    div {
+        display: grid;
+        place-items: center;
+
+    
+}
+</style>
+
+<body>
+
+    <div>
+        <form action="./smallproj.html">
+            <table >
+                <tr>
+                    <td>mobie number <span style="color: red;">*</span> </td>
+                    <td colspan="2" align="center"  title="mobile no"><input type="number" required></td>
+                </tr>
+                <tr>
+                    <td>Address <span style="color: red;">*</span> </td>
+                    <td colspan="2" align="center"  title="address"> <textarea rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>languages </td>
+                    <td colspan="2" align="center"  title="select languages"><input type="checkbox"> <label>tamil</label>
+                        <input type="checkbox"> <label>hindi</label>
+                        <input type="checkbox"> <label>telugu</label><br>
+                        <input type="checkbox"> <label>malayalam</label>
+                        <input type="checkbox"> <label>kanada</label>
+                        <input type="checkbox"> <label>english</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>upload <span style="color: red;">*</span> </td>
+                    <td colspan="2" align="center"  title="upload images"><input type="file" required></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td colspan="2" align="center"  ><input type="reset"> <button>submit</button></td>
+                </tr>
+
+
+
+            </table>
+        </form>
+       
+    </div>
+    <h3 style="color: red;">* required fields</h3>
+</body>
+
+</html>

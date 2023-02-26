@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background-color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+
+    }
+
+
+
+
+
+
+    span {
+        color: rgb(252, 5, 5);
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid rgb(144, 125, 1);
+        border-collapse: collapse;
+        margin-top: 5cm;
+        box-sizing: content-box;
+        width: 100%;
+        color: aqua;
+
+
+    }
+
+    div {
+        display: grid;
+        place-items: center;
+
+    }
+/* 
+    input {
+        border: none;
+        padding: 1rem;
+        border-radius: 1rem;
+        background: #e8e8e8;
+        box-shadow: 5px 5px 15px #c5c5c5,
+            -5px -5px 15px #ffffff;
+        transition: 0.3s;
+    }
+
+    input:focus {
+        outline-color: #e8e8e8;
+        background: #e8e8e8;
+        box-shadow: inset 5px 5px 15px #c5c5c5,
+           inset -5px -5px 15px #ffffff;
+        transition: 0.3s;
+    }
+
+    button {
+        border: none;
+        padding: 1rem;
+        border-radius: 1rem;
+        background: #e8e8e8;
+        box-shadow:5px 5px 15px #c5c5c5,
+            -5px -5px 15px #ffffff;
+        transition: 0.3s;
+    }
+
+    button:focus {
+        outline-color: #e8e8e8;
+        background: #e8e8e8;
+        box-shadow: inset 10px 10px 15px #c5c5c5,
+            inset -10px -10px 15px #ffffff;
+        transition: 0.3s; 
+    }  */
+</style>
+
+<body>
+
+    <div>
+        <form action="nextpage.html">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <p title="firstname">firstname <span>*</span></p> <input type="text" required>
+                    </td>
+                    <td>
+                        <p title="lastname">lastname <span>*</span></p><input type="text" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email <span>*</span> </td>
+                    <td colspan="2" align="center" title="enter email id"><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td>DOB <span>*</span></td>
+                    <td colspan="2" align="center" title="drop dob"><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td>gender <span>*</span> </td>
+                    <td colspan="2" align="center"><input type="radio" name="gender" required> <label
+                            for="gender">male</label>
+                        <input type="radio" name="gender" required><label for="gender">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>select state<span>*</span></td>
+                    <td colspan="2" align="center"><select required>
+                            <option value="AR">Arunachal Pradesh</option>
+                            <option value="AP">Andhra Pradesh</option>
+                            <option value="AS">Assam</option>
+                            <option value="BR">Bihar</option>
+                            <option value="CT">Chhattisgarh</option>
+                            <option value="GA">Gujarat</option>
+                            <option value="HR">Haryana</option>
+                            <option value="HP">Himachal Pradesh</option>
+                            <option value="JK">Jammu and Kashmir</option>
+                            <option value="GA">Goa</option>
+                            <option value="JH">Jharkhand</option>
+                            <option value="KA">Karnataka</option>
+                            <option value="KL">Kerala</option>
+                            <option value="MP">Madhya Pradesh</option>
+                            <option value="MH">Maharashtra</option>
+                            <option value="MN">Manipur</option>
+                            <option value="ML">Meghalaya</option>
+                            <option value="MZ">Mizoram</option>
+                            <option value="NL">Nagaland</option>
+                            <option value="OR">Odisha</option>
+                            <option value="PB">Punjab</option>
+                            <option value="RJ">Rajasthan</option>
+                            <option value="SK">Sikkim</option>
+                            <option value="TN">Tamil Nadu</option>
+                            <option value="TG">Telangana</option>
+                            <option value="TR">Tripura</option>
+                            <option value="UT">Uttarakhand</option>
+                            <option value="UP">Uttar Pradesh</option>
+                            <option value="WB">West Bengal</option>
+                            <option value="AN">Andaman and Nicobar Islands</option>
+                            <option value="CH">Chandigarh</option>
+                            <option value="DN">Dadra and Nagar Haveli</option>
+                            <option value="DD">Daman and Diu</option>
+                            <option value="DL">Delhi</option>
+                            <option value="LD">Lakshadweep</option>
+                            <option value="PY">Puducherry</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td colspan="2" align="center"><input type="reset"> <button>next page</button></td>
+                </tr>
+
+
+
+
+
+            </table>
+            <h3 style="color: red;">* required fields</h3>
+        </form>
+    </div>
+</body>
+
+</html
